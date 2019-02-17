@@ -60,6 +60,7 @@ def hangman():
 		letter = guess()
 		letter_checker(letter, choosen_word)
 	print("Congratulations you won the game!")
+	input()
 
 
 hangman()
